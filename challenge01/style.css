@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* INSTRUCTIONS
  *
  * 1) Limit the total width of
@@ -34,3 +35,41 @@ body {
 .intro-content {
   width: 50%;
 }
+=======
+/* INSTRUCTIONS
+ *
+ * 1) Limit the total width of
+ *    the .intro-conent to about half
+ *    of it's parent
+ *
+ * 2) Stop the text from overflowing
+ *    out the bottom at small screen
+ *    widths
+ *
+ * You may modify the HTML if needed
+ *
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+}
+
+.intro-content {
+  width: 50%;
+}
+>>>>>>> 066b40e360b37bd79dcce5d373605de2fe2d1b41
