@@ -1,0 +1,36 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2e932e;
+}
+
+header h1 {
+  padding: 2rem;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: #2e932e;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
