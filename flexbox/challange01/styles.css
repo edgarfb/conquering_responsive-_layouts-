@@ -2,16 +2,22 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+/* This a pattern and a good place to put the box-sizing property */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   padding: 0;
-  box-sizing: border-box;
+
   margin: 0;
 }
 
 .container {
   width: 100vw;
 }
-.inner {
+.row {
   width: 80%;
   padding: 100px 0;
   margin: 0 auto;
@@ -60,7 +66,8 @@ p {
   text-align: center;
 }
 
-.cards__box {
+/* A way to all elements, .card__box in this case, but not the fist one */
+.cards__box + .cards__box {
   margin-left: 1rem;
 }
 .bg_light h3 {
