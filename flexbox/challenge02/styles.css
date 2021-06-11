@@ -1,0 +1,110 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* This a pattern and a good place to put the box-sizing property */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100vw;
+}
+.row {
+  width: 80%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.header__inner h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header__inner p {
+  font-weight: 400;
+  font-size: 21px;
+  color: #e1e1e1;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 21px;
+  background: #38cfd9;
+  border: none;
+  border-radius: 32px;
+  width: 200px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.header p {
+  text-align: start;
+}
+.header__inner {
+  width: 60%;
+}
+
+.header__inner h1 {
+  margin-top: 0;
+}
+
+.header__img {
+  width: 35%;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+/* A way to all elements, .card__box in this case, but not the fist one */
+
+.bg_white {
+  width: 60%;
+}
+.bg_white h3 {
+  margin-top: 0;
+  text-align: start;
+  font-size: 2rem;
+  color: #136c72;
+}
+.bg_white p {
+  text-align: start;
+}
+.bg_dark_green {
+  background: #23424a;
+  color: white;
+}
+.bg_green {
+  background: #136c72;
+  color: white;
+  width: 35%;
+}
+.bg_green .cards__box {
+  margin: 0 1rem;
+}
+.bg_green h3 {
+  font-size: 2rem;
+}
+.bg_light_green {
+  background: #38cfd9;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
