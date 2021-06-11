@@ -1,37 +1,32 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+
 body {
-  box-sizing: border-box;
   padding: 0;
+  box-sizing: border-box;
   margin: 0;
 }
 
 .container {
   width: 100vw;
-
-  color: white;
 }
-
 .inner {
-  /* height: 100vh; */
-  padding: 100px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 80%;
+  padding: 100px 0;
   margin: 0 auto;
 }
 
-h1 {
+.header__inner h1 {
   font-size: 48px;
   font-weight: 900;
 }
 
-p {
+.header__inner p {
   font-weight: 400;
   font-size: 21px;
   color: #e1e1e1;
+  margin-bottom: 4rem;
 }
 
 .btn {
@@ -44,10 +39,51 @@ p {
   border: none;
   border-radius: 32px;
   width: 200px;
-  padding: 16px;
+  padding: 16px 32px;
   cursor: pointer;
 }
+.header p {
+  text-align: start;
+}
+.header__inner {
+  width: 70%;
+}
+/* .header__inner {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background: pink;
+} */
 
-.cards {
-  background: #fff;
+h3,
+p {
+  text-align: center;
+}
+
+.cards__box {
+  margin-left: 1rem;
+}
+.bg_light h3 {
+  font-size: 2rem;
+  color: #87629a;
+}
+.bg_dark_green {
+  background: #23424a;
+  color: white;
+}
+.bg_green {
+  background: #136c72;
+  color: white;
+}
+.bg_green .cards__box {
+  margin-left: 2rem;
+}
+.bg_green h3 {
+  font-size: 2rem;
+}
+.bg_light_green {
+  background: #38cfd9;
+}
+.flex {
+  display: flex;
 }
