@@ -94,9 +94,7 @@ p {
   background: #136c72;
   color: white;
   width: 35%;
-}
-.bg_green .cards__box {
-  margin: 0 1rem;
+  padding: 1rem;
 }
 .bg_green h3 {
   font-size: 2rem;
