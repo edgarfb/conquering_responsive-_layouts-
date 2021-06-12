@@ -53,6 +53,9 @@ img {
 
 .nav {
   background: #136c72;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__list {
@@ -62,10 +65,11 @@ img {
 
 .nav__list li {
   list-style-type: none;
-  padding: 1rem;
+  padding: 1rem 0;
 }
-.nav__list li:first-child {
-  padding-left: 0;
+
+.nav__list__item + .nav__list__item {
+  margin-left: 1rem;
 }
 .nav__list a {
   color: white;
