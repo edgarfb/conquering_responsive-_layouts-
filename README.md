@@ -4,6 +4,3 @@
  For more infomation about the course:
  [Coquering Responsive Layout](https://courses.kevinpowell.co/conquering-responsive-layouts)
 
-## TODO
-- Create a card layout
-- Create a .container
