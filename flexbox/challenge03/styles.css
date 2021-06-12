@@ -57,6 +57,23 @@ img {
   display: flex;
   justify-content: space-between;
 }
+/* adding to the second style of navbar */
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.nav__list__container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav__list__primary {
+  margin: 0 auto;
+  align-items: center;
+}
+/* adding to the second style of navbar */
 
 .nav__list {
   padding: 0;
