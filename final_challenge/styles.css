@@ -71,6 +71,7 @@ ul {
 
 .navbar {
     background: var(--dark);
+    position: fixed;
 
 }
 .navbar__inner {
@@ -95,6 +96,7 @@ ul {
     background: var(--dark);
     left: 0;
     top: 65px;
+
 }
 .nav--visible {
     display: flex !important;
@@ -125,6 +127,7 @@ ul {
 
 .hero {
     color: white;
+    padding-top: 5rem;
 }
 
 .hero h1 {
@@ -189,14 +192,17 @@ ul {
 
 .foot__info {
     color: white;
+    text-align: center;
 }
 .foot__list {
-    text-align: center;
+    
 }
 .foot__link:hover,
 .foot__link:focus {
     opacity: .7;
 }
+
+
 
 
 /* FOOTER */
