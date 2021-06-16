@@ -21,7 +21,7 @@ body {
 }
 
 h2 {
-  font-family: serif;
+  font-family: "Playfair Display", serif;
   font-size: 2rem;
   /* font-weight: ; */
 }
@@ -81,7 +81,8 @@ p {
   margin-top: 0;
   color: var(--brown);
   font-size: 4rem;
-  font-family: serif;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 .bg__cream {
