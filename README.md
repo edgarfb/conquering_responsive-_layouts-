@@ -21,3 +21,6 @@
 * [Challenge 04](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge04/flex_challenge_04.html)
 * [Challenge 05](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge05_nav/flex_challenge_05_nav.html)
 
+#### Final Challenge
+*[Final](https://edgarfb.github.io/conquering_responsive_layouts/final_challenge/final_challenge.html)
+
