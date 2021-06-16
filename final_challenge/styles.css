@@ -1,0 +1,210 @@
+/* GENERALS AND RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* use this to line all element */
+/* * {
+    outline: 1px solid red;
+} */
+/* use this to line all element */
+:root {
+    --dark: #2E323F;
+    --black : #3B4050;
+    --gray : #6F737F;
+    --white : #FFFFFF;
+    --cream : #A59678;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cream);
+}
+li  {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: .5rem 1rem;
+    background: var(--cream);
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+
+/* GENERAL AND RESET */
+
+.navbar {
+    background: var(--dark);
+
+}
+.navbar__inner {
+    position: relative;
+    display: flex;
+}
+.icon-menu {
+    font-size: 2rem;
+    color: white;
+    width: 42%;
+}
+.nav__logo {
+    width: 58%;
+}
+
+.nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    background: var(--dark);
+    left: 0;
+    top: 65px;
+}
+.nav--visible {
+    display: flex !important;
+}
+
+.nav__list {
+    
+    width: 100%;
+}
+.nav__item {
+    margin: .5rem 0;
+    text-align: center;
+}
+.nav__link {
+    color: var(--white);
+    text-transform: uppercase;
+}
+.nav__link:hover,
+.nav__link:focus {
+    opacity: .7;
+}
+
+/* HERO */
+
+.hero, .foot {
+    background: var(--black);
+}
+
+.hero {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.hero h1 span {
+    color: var(--cream);
+}
+
+.hero .text p {
+    margin: 2rem 0;
+}
+.hero__inner {
+    padding-bottom: 2rem;
+}
+
+/* HERO */
+
+/* RESUME */
+
+.resume {
+    background: #e1e1e1;
+    text-align: center;
+    
+}
+.resume h3 {
+    color: var(--cream);
+}
+.resume__cards .card {
+    background: inherit;
+    color: black;
+}
+
+/* RESUME */
+
+
+
+
+
+
+/* MAIN */
+
+.main__img img {
+    width: 100%;
+}
+
+
+.card {
+    background: var(--black);
+    padding: 1rem;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+
+/* MAIN */
+
+
+/* FOOTER */
+
+.foot__info {
+    color: white;
+}
+.foot__list {
+    text-align: center;
+}
+.foot__link:hover,
+.foot__link:focus {
+    opacity: .7;
+}
+
+
+/* FOOTER */
+
+@media (min-width: 1000px) {
+    .row {
+        width: 80% !important;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
