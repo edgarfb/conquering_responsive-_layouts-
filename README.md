@@ -18,4 +18,6 @@
 * [Challenge 01](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge01/flex_challenge_01.html)
 * [Challenge 02](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge02/flex_challenge_02.html)
 * [Challenge 03](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge03/flex_challenge_03.html)
+* [Challenge 04](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge04/flex_challenge_04.html)
+* [Challenge 05](https://edgarfb.github.io/conquering_responsive_layouts/flexbox/challenge05/flex_challenge_05_nav.html)
 
