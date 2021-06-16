@@ -137,7 +137,9 @@ header {
     height: 0;
     position: absolute;
 }
-
+.nav__list:first-child {
+    margin-bottom: 2rem;
+}
 .nav--visible {
     visibility: visible;
     height: auto;
@@ -146,7 +148,7 @@ header {
 .nav--visible ul li {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: .5rem;
     
 }
 
@@ -214,8 +216,13 @@ header {
         padding: 0;
         display: flex;
     }
+    
     .nav ul li {
         margin-left: 1rem;
+    }
+    .nav__link:hover, 
+    .nav__link:focus {
+        opacity: .7;
     }
 
     .row {
