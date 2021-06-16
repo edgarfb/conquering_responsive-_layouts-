@@ -100,10 +100,35 @@ ul {
     background: var(--dark);
     left: 0;
     top: 65px;
+    
+    /* height: 0; */
+    
 
 }
+@keyframes down {
+    from {
+        height: 0;
+    }
+    to {
+        height: 173px;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 .nav--visible {
+    animation-name: down;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
     display: flex !important;
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 
 .nav__list {
@@ -216,7 +241,7 @@ ul {
 
 @media (min-width: 700px) {
     .row {
-        width: 80% !important;
+        width: 90% !important;
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -233,6 +258,9 @@ ul {
         flex-direction: row;
         position: relative;
         top: 0;
+    }
+    .nav__logo {
+        width: auto;
     }
     .nav__list {
         display: flex;
@@ -365,4 +393,10 @@ ul {
 
 
 
+}
+
+@media (min-width: 1000px) {
+    .row {
+        width: 90% !important;
+    }
 }
